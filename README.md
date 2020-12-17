@@ -11,3 +11,4 @@ GRIP TASK 1
 *****
 Additional grip task 1
 * USAGE: python predict.py --image images/dog.jpg --model output/simple_nn.model --labelb output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
+* Complete reference [Keras tutorial](https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/)
