@@ -1,4 +1,3 @@
-# set the matplotlib backend so figures can be saved in the background
 import matplotlib #plotting package, AGG used to save plots to disk
 matplotlib.use("Agg")
 
