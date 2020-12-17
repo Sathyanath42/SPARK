@@ -73,3 +73,14 @@ model.add(Dense(len(lb.classes_), activation="softmax"))
 #initialise our learning rate and total number of epochs to train
 INIT_LR = 0.01
 EPOCHS = 80
+
+print("training the network---")
+#stochastic gradient descent optimiser with categorical crossentropy
+opt = SGD(lr=INIT_LR) 
+model.compile(loss = "categorical_crossentropy", optimizer = opt, metrics = ["accuracy"])
+
+######Training the neural network
+#batch sizes can be increased based on computing power
+H = model.fit(x=trainx, y=trainy, validation_data=(testx, testy), epochs=EPOCHS, batch_size=32)
+
+
