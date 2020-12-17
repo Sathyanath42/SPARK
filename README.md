@@ -8,3 +8,5 @@ GRIP TASK 1
 * Built with [MobileNetSSD](https://github.com/PINTO0309/MobileNet-SSD-RealSense/tree/master/caffemodel/MobileNetSSD).
 * Using the [Word set](https://github.com/HoldenCaulfieldRye/caffe/blob/master/data/ilsvrc12/synset_words.txt) 
 * Complete reference [Object Detection with Deep Learning](https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/)
+*****
+Additional grip task 1
