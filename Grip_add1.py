@@ -1,6 +1,3 @@
-# USAGE
-# python train_simple_nn.py --dataset animals --model output/simple_nn.model --label-bin output/simple_nn_lb.pickle --plot output/simple_nn_plot.png
-
 # set the matplotlib backend so figures can be saved in the background
 import matplotlib #plotting package, AGG used to save plots to disk
 matplotlib.use("Agg")
