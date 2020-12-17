@@ -10,3 +10,4 @@ GRIP TASK 1
 * Complete reference [Object Detection with Deep Learning](https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/)
 *****
 Additional grip task 1
+* USAGE: python predict.py --image images/dog.jpg --model output/simple_nn.model --labelb output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
