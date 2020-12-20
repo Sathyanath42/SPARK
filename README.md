@@ -17,5 +17,5 @@ GRIP Task 2 : Traffic Sign Detection with Keras and Tensorflow
 * USAGE for running model: GRIP_task2_model.py --dataset gtsrb-german-traffic-sign --model output/trafficsignnet.model
 * USAGE for prediction: GRIP_task2_pred.py --model output/trafficsignnet.model --images gtsrb-german-traffic-sign/Test --testimage images
 * Built with Keras and Tensorflow
-* COmplete reference [Traffic sign detection](https://www.pyimagesearch.com/2019/11/04/traffic-sign-classification-with-keras-and-deep-learning/)
+* Complete reference [Traffic sign detection](https://www.pyimagesearch.com/2019/11/04/traffic-sign-classification-with-keras-and-deep-learning/)
 
