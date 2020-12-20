@@ -12,3 +12,10 @@ GRIP TASK 1
 Additional grip task 1
 * USAGE: python predict.py --image images/dog.jpg --model output/simple_nn.model --labelb output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
 * Complete reference [Keras tutorial](https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/)
+*****
+GRIP Task 1
+* USAGE for running model: GRIP_task2_mod.py --dataset gtsrb-german-traffic-sign --model output/trafficsignnet.model
+* USAGE for prediction: GRIP_task2_pred.py --model output/trafficsignnet.model --images gtsrb-german-traffic-sign/Test --testimage images
+* Built with Keras and Tensorflow
+* COmplete reference [Traffic sign detection](https://www.pyimagesearch.com/2019/11/04/traffic-sign-classification-with-keras-and-deep-learning/)
+
