@@ -9,7 +9,7 @@ GRIP TASK 1 : Object Detection with MobileNetSSD
 * Using the [Word set](https://github.com/HoldenCaulfieldRye/caffe/blob/master/data/ilsvrc12/synset_words.txt) 
 * Complete reference [Object Detection with Deep Learning](https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/)
 *****
-Additional grip task 1 : Detction of objest using Keras
+Additional grip task 1 : Detection of objects using Keras
 * USAGE: python predict.py --image images/dog.jpg --model output/simple_nn.model --labelb output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1
 * Complete reference [Keras tutorial](https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/)
 *****
