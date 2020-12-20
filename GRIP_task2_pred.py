@@ -1,6 +1,3 @@
-# USAGE
-# python predict.py --model output/trafficsignnet.model --images gtsrb-german-traffic-sign/Test --examples examples
-
 # import the necessary packages
 from tensorflow.keras.models import load_model
 from skimage import transform
@@ -16,9 +13,9 @@ import os
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-m", "--model", required=True,help="path to pre-trained traffic sign recognizer")
-ap.add_argument("-i", "--images", required=True,help="path to testing directory containing images")
-ap.add_argument("-e", "--examples", required=True,help="path to output examples directory")
+ap.add_argument("--model", required=True,help="path to pre-trained traffic sign recognizer")
+ap.add_argument("--images", required=True,help="path to testing directory containing images")
+ap.add_argument("--testimages", required=True,help="path to output examples directory")
 args = vars(ap.parse_args())
 
 # load the traffic sign recognizer model
@@ -60,5 +57,5 @@ for (i, imagePath) in enumerate(imagePaths):
 	cv2.putText(image, label, (5, 15), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (255, 0, 0), 2)
 
 	# save the image to disk
-	p = os.path.sep.join([args["examples"], "{}.png".format(i)])
+	p = os.path.sep.join([args["testimages"], "{}.png".format(i)])
 	cv2.imwrite(p, image)
