@@ -15,7 +15,7 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("--model", required=True,help="path to pre-trained traffic sign recognizer")
 ap.add_argument("--images", required=True,help="path to testing directory containing images")
-ap.add_argument("--testimages", required=True,help="path to output examples directory")
+ap.add_argument("--testimages", required=True,help="path to test image directory")
 args = vars(ap.parse_args())
 
 # load the traffic sign recognizer model
